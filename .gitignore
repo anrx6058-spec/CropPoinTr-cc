@@ -1,0 +1,33 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Model checkpoints & training outputs (too large for the repository)
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+results/
+runs/
+logs/
+
+# Datasets (Crops3D must be downloaded separately)
+data/Crops3D/
+*.ply
+
+# Miscellaneous
+*.zip
+*.rar
